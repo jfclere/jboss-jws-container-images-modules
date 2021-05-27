@@ -4,4 +4,4 @@ SCRIPT_DIR="$(dirname $0)"
 ADDED_DIR="$SCRIPT_DIR/added"
 
 (cd $ADDED_DIR; jar cvf ROOT.war *)
-cp -p cp -p "$ADDED_DIR/ROOT.war "/deployments"
+cp -p "$ADDED_DIR/ROOT.war "/deployments"
